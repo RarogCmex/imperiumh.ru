@@ -1,0 +1,11 @@
+pages filter=lfs diff=lfs merge=lfs -text
+posts filter=lfs diff=lfs merge=lfs -text
+__pycache__ filter=lfs diff=lfs merge=lfs -text
+conf.py filter=lfs diff=lfs merge=lfs -text
+files filter=lfs diff=lfs merge=lfs -text
+galleries filter=lfs diff=lfs merge=lfs -text
+images filter=lfs diff=lfs merge=lfs -text
+listings filter=lfs diff=lfs merge=lfs -text
+output filter=lfs diff=lfs merge=lfs -text
+themes filter=lfs diff=lfs merge=lfs -text
+cache filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Проект Империум Человека (Записи о Организационная наука)</title><link>https://imperium.org.ru/</link><description></description><atom:link href="https://imperium.org.ru/categories/organizatsionnaia-nauka.xml" rel="self" type="application/rss+xml"></atom:link><language>ru</language><copyright>Contents © 2020 &lt;a href="mailto:ingwe@mail.imperium.org.ru"&gt;Рева Денис&lt;/a&gt; </copyright><lastBuildDate>Sat, 26 Dec 2020 12:51:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Тезисно о сложности мира</title><link>https://imperium.org.ru/posts/tezisno-o-slozhnosti-mira/</link><dc:creator>Рева Денис</dc:creator><description>&lt;div&gt;&lt;p&gt;Буду краток. Мир — сложная штука. Сложенная из простых вещей.&lt;/p&gt;
+&lt;p&gt;А мышление и память человека ограничены. Разум без специальных инструментов (пример: логика) склонен сбоить в ситуациях, требующих «всего-то» 500 простых действий подряд.&lt;/p&gt;
+&lt;p&gt;Вот отсюда и получается, что люди постоянно совершают ошибки просто из-за неспособности сделать 500 простых действий, не ошибившись в них.&lt;/p&gt;
+&lt;p&gt;А теперь то, ради чего писалась эта статья. С одной стороны, всё вышенаписанное не решает проблемы, ибо тут задача контроля полноты и достоверности исходной информации. С другой, если мы позволим людям совершать хотя бы 200 простых действий подряд из требуемых 500 заведомо без ошибок, то это уже улучшит нынешнюю ситуацию.&lt;/p&gt;
+&lt;p&gt;Вот с этим и приходится пока что работать. Кстати говоря, можно сделать нечто вроде теоремы:&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;Теорема «500 действий»&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Если человеку требуется достичь сложной цели, требующий 500 (или любое другое большое число) зависящих друг от друга действий для достижения, то с каждым следующим действием вероятность совершения человеком минимум одной ошибки растёт экспоненциально.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Доказательством служит нынешний мир.&lt;/p&gt;
+&lt;p&gt;P.S. &lt;em&gt;Заметил, что мне нравятся такие мыслительные тренировки. Не знаю, с чем это связано&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>Кратко</category><category>Организационная наука</category><category>теорема 500 действий</category><guid>https://imperium.org.ru/posts/tezisno-o-slozhnosti-mira/</guid><pubDate>Sat, 26 Dec 2020 12:22:23 GMT</pubDate></item></channel></rss>
