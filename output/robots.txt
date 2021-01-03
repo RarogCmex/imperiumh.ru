@@ -1,4 +1,0 @@
-Sitemap: https://imperium.org.ru/sitemapindex.xml
-
-User-Agent: *
-Host: imperium.org.ru
