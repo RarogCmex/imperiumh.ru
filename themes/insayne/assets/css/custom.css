@@ -1,0 +1,87 @@
+/*Навигационное меню*/
+
+.navbar {
+  background: linear-gradient(179deg, #630091, #343a40 20% 90%, white);
+}
+
+#blog-title {
+    border: 3px solid #343a40;
+}
+
+#blog-title:hover {
+    background-color: #68535e;
+    border: 3px ridge darkred;
+}
+
+.nav-item {
+  border: 1px solid #3c434a;
+}
+
+.nav-item:hover {
+  border: 1px solid white;
+  background-color: #535d68;
+}
+
+/* Заголовки */
+.entry-title a {
+  color: green;
+}
+.h1,
+.entry-title a:hover {
+  color: rgb(0, 104, 48);
+  text-decoration: underline;
+}
+
+/* Размеры заголовков*/
+h1 {
+  font-size: 2.2rem;
+}
+.h2,
+h2 {
+  font-size: 1.9rem;
+}
+.h3,
+h3 {
+  font-size: 1.55rem;
+}
+.h4,
+h4 {
+  font-size: 1.35rem;
+}
+.h5,
+h5 {
+  font-size: 1.2rem;
+}
+.h6,
+h6 {
+  font-size: 1rem;
+}
+/*Ширина медиаконтейнера*/
+/* @media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+      max-width: 1140px;
+    }
+  } */
+/*Красивые таблицы*/
+
+table {
+    border: 3px solid black;
+}
+table tr {
+    border: 2px solid gray;
+}
+table td {
+    border: 1px solid wheat;
+}
+
+/*Дата и время*/
+.dt-published {
+    color: darkseagreen;
+}
+.dt-published:hover {
+    color: yellowgreen;
+}
