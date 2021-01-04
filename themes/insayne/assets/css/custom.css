@@ -75,13 +75,25 @@ table tr {
     border: 2px solid gray;
 }
 table td {
-    border: 1px solid wheat;
+    border: 1px solid darkgoldenrod; /*ToDO: найти способ сделать это более толстым*/
 }
 
-/*Дата и время*/
+/*Дата и время поста*/
 .dt-published {
     color: darkseagreen;
 }
 .dt-published:hover {
     color: yellowgreen;
+}
+
+/*Предыдущая и следующая записи*/
+.previous a,
+.next a {
+  color: green;
+}
+
+.previous a:hover,
+.next a:hover {
+  color: rgb(0, 75, 10);
+  border-color:darkgreen;
 }
