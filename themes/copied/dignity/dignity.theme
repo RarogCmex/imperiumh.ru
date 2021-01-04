@@ -1,8 +1,0 @@
-[Theme]
-engine = mako
-parent = bootstrap4
-author = Reva Denis
-author_url = https://imperium.org.ru
-based_on = Bootstrap 4 <http://getbootstrap.com/>
-license = PUBLIC DOMAIN
-tags = bootstrap
