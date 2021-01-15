@@ -1,7 +1,7 @@
 .. title: Что-то сильно не так в современном обществе с педагогикой. Часть 1.
 .. slug: chto-to-silno-ne-tak-v-sovremennom-obshchestve-a-chto-soobrazit-ne-mogu
 .. date: 2021-01-15 17:39:42 UTC+05:00
-.. tags: Дневник
+.. tags: Дневник, дописанное до точки
 .. category: 
 .. link: 
 .. description: 
