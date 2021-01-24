@@ -1,8 +1,8 @@
 .. title: Об анакосмизмах
 .. slug: ob-anakosmizmakh
 .. date: 2021-01-24 10:30:32 UTC+05:00
-.. tags: 
-.. category: 
+.. tags: Дневник, Литература, Кратко
+.. category: Дневник
 .. link: 
 .. description: 
 .. type: text
