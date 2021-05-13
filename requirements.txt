@@ -1,1 +1,1 @@
-Nikola[extras]
+Nikola
