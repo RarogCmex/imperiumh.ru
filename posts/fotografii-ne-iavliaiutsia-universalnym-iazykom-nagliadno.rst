@@ -33,7 +33,7 @@
 
 Ну и бонусом совсем наглядно по дискуссии с АШ из той же статьи `Почему инстаграм популярен?`_. Ссылка на `начало ветки`_.
 
-.. thumbnail:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/Screenshot_20210102_192806.png
+.. image:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/Screenshot_20210102_192806.png
 
 .. _`начало ветки`: https://aftershock.news/?q=comment/9645249#comment-9645249
 
