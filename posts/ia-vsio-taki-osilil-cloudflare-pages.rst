@@ -12,3 +12,6 @@
 `Сейчас оно деплоится в https://imperiumh-ru.pages.dev <https://imperiumh-ru.pages.dev/>`_
 
 Потом настрою кастомный домен.
+
+**UPD: Настроил** `<https://imperiumh.ru>`_ 
+
