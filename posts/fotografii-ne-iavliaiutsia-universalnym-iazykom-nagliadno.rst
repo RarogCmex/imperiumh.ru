@@ -13,7 +13,7 @@
 
 .. [#] Откуда я, мать его, это знаю?
 
-.. image:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/title_image.png
+.. thumbnail:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/title_image.png
 
 Изображения не являются **денотатом** (от лат. denoto — обозначаю) сами по себе, и последовательность изображений не обладает синтаксисом. Здесь под денотатом подразумевается свойство слова обозначать предмет. Изображение может стать денотатом, будучи встроено в существующее речевое или письменное предложение (пример - ребусы); но это редкость. Обычно изображение используется для **иллюстрации**, оно зрительным ассоциативным рядом (цепочкой мыслей-ассоциаций) дополняет сказанное (написанное).
 
@@ -21,7 +21,7 @@
 
 .. _`23 tiny wishes`: https://www.deviantart.com/wlop/art/23-tiny-wishes-717982390
 
-.. image:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/dbvgura-058b5649-f7c2-4e18-8c1c-00da48d9b936.jpg
+.. thumbnail:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/dbvgura-058b5649-f7c2-4e18-8c1c-00da48d9b936.jpg
 
 Что она выражает?
 
@@ -33,7 +33,7 @@
 
 Ну и бонусом совсем наглядно по дискуссии с АШ из той же статьи `Почему инстаграм популярен?`_. Ссылка на `начало ветки`_.
 
-.. image:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/Screenshot_20210102_192806.png
+.. thumbnail:: /images/blog/fotografii-ne-iavliaiutsia-universalnym-iazykom-nagliadno/Screenshot_20210102_192806.png
 
 .. _`начало ветки`: https://aftershock.news/?q=comment/9645249#comment-9645249
 

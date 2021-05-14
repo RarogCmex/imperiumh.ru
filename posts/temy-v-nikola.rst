@@ -13,10 +13,10 @@
 
 В общем, нужно будет подучить CSS и разработать свою тему. Сейчас попробую сделать скриншот.
 
-.. image:: /images/special/Screenshot_20201226_191042.png
+.. thumbnail:: /images/special/Screenshot_20201226_191042.png
 
 Скорее всего, возьму что-то наподобие Bootstrap4 за основу. Он выглядит чуть-чуть лучше, чем bootblog4, который идёт по умолчанию.
 
-.. image:: /images/special/Screenshot_20201226_191506.png
+.. thumbnail:: /images/special/Screenshot_20201226_191506.png
 
 Или я со временем найду другой статический генератор (Next.js?), благо исходники сохраняются.
