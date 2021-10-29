@@ -3,3 +3,4 @@
 /__pycache__/
 .doit.db
 state_data.json
+.DS_Store
