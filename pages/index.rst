@@ -1,11 +1,13 @@
-.. title: Проект «Империум Человека»: Общие сведения
-.. slug: proekt-imperium-cheloveka
-.. date: 2036-01-01 00:00:00 UTC+00:00
-.. tags: Технические посты
+.. title: Империум Человека
+.. slug: index
+.. date: 2021-11-01 23:49:10 UTC+05:00
+.. tags: 
 .. category: 
 .. link: 
 .. description: 
-.. type: text\
+.. type: text
+
+.. warning:: Ещё не успел поправить текст.
 
 .. container:: blog-psevdo-header
 
