@@ -561,7 +561,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: '<nav> <aside><p>Сайт мой личный (Рева Денис), не тематический. Задублирован на двух независимых доменах для большей устойчивости.</p> </aside> </br> <p>(Здесь будет навигация)</p> </nav>'
+    DEFAULT_LANG: '<nav> <aside><p>Сайт мой личный (Рева Денис), не тематический. imperium.org.ru -- вспомогательный домен.</p> </aside> </br> <p>(Здесь когда-нибудь будет что-нибудь классное)</p> </nav>'
 }
 
 # Create per-month archives instead of per-year
