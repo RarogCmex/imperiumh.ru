@@ -24,7 +24,7 @@ SITE_URL = "https://imperiumh.ru/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://imperium.org.ru/"
-BLOG_EMAIL = "ingwe@mail.imperium.org.ru"
+BLOG_EMAIL = "rarog.cmex@yandex.ru"
 BLOG_DESCRIPTION = "Разрабатываем хорошее будущее"  # (translatable)
 
 # Nikola is multilingual!
@@ -139,12 +139,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("https://imperiumh.ru", "imperiumh.ru"),
-        ("https://imperium.org.ru", "imperium.org.ru"),
-        ("https://github.com/RarogCmex/imperiumh.ru", "Git репозиторий"),
-        ("/archive.html", "Навигация по времени"),
+        ("/pages/", "Индекс"),
         ("/categories/", "Тэги"),
-        ("/rss.xml", "RSS лента"),
     ),
 }
 
@@ -152,11 +148,15 @@ NAVIGATION_LINKS = {
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
+    DEFAULT_LANG: (
+        ("/archive.html", "Навигация по времени"),
+        ("/rss.xml", "RSS лента"),
+        ("https://github.com/RarogCmex/imperiumh.ru", "Git репозиторий"),
+        )
 }
 
 # Name of the theme to use.
-THEME = "insayne"
+THEME = "insayne-z"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -308,7 +308,7 @@ COMPILERS = {
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ['.php'],
+    # "php": ['.php'],
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -349,7 +349,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-# LOGO_URL = ''
+LOGO_URL = ''
 
 # When linking posts to social media, Nikola provides Open Graph metadata
 # which is used to show a nice preview. This includes an image preview
@@ -561,7 +561,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: '<nav> <aside><p>Сайт мой личный (Рева Денис), не тематический. imperium.org.ru -- вспомогательный домен.</p> </aside> </br> <p>(Здесь когда-нибудь будет что-нибудь классное)</p> </nav>'
+    DEFAULT_LANG: '<nav> <aside><p style="color: grey">Ресурс мой личный (Рева Денис), не только тематический. <a href="/pages/">Содержание сайта и все ссылки в индексе,</a> на главной расположен блог.</p> </aside></nav>'
 }
 
 # Create per-month archives instead of per-year
@@ -647,9 +647,7 @@ REDIRECTIONS = []
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
-     'default': [
-         "rsync -rav output/ sauron@del.l:/srv/static/imperium.org.ru",
-     ]
+     'default': [ ]
 }
 
 #ssh sauron@del.l /bin/rm -r /srv/imperium.org.ru/*; scp -r output/* sauron@del.l:/srv/imperium.org.ru
@@ -910,10 +908,10 @@ IMAGE_FOLDERS = {'images': 'images'}
 # FAVICONS contains (name, file, size) tuples.
 # Used to create favicon link like this:
 # <link rel="name" href="file" sizes="size"/>
-#FAVICONS = (
-#     ("icon", "/favicon.ico", "16x16"),
-#     ("icon", "/apple-touch-icon.png", "128x128"),
-#)
+FAVICONS = (
+     ("icon", "/favicon.ico", "16x16"),
+     ("icon", "/apple-touch-icon.png", "128x128"),
+)
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
 # INDEX_TEASERS = False
@@ -959,7 +957,7 @@ LICENSE = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Содержимое ® {date}         <a href="mailto:{email}">{author}, команда «Империум Человека»</a> - Движок         <a href="https://getnikola.com" rel="nofollow">Nikola</a>.  {license}. Персональные данные не собираются'
+CONTENT_FOOTER = 'Содержимое ® {date}  <a href="mailto:{email}">{author}, Рева Денис и команда «Империум Человека»</a> - Движок         <a href="https://getnikola.com" rel="nofollow">Nikola</a>.  {license}. Персональные данные не собираются.'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -996,7 +994,7 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, intensedebate, isso, muut, commento
 # You can leave this option blank to disable comments.
-#COMMENT_SYSTEM = "isso"
+COMMENT_SYSTEM = ""
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
@@ -1039,12 +1037,12 @@ PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
-FUTURE_IS_NOW = True
+FUTURE_IS_NOW = False
 
 # If True, future dated posts are allowed in deployed output
 # Only the individual posts are published/deployed; not in indexes/sitemap
 # Generally, you want FUTURE_IS_NOW and DEPLOY_FUTURE to be the same value.
-DEPLOY_FUTURE = True
+DEPLOY_FUTURE = False
 # If False, draft posts will not be deployed
 # DEPLOY_DRAFTS = True
 
@@ -1372,10 +1370,10 @@ WARN_ABOUT_TAG_METADATA = False
 GLOBAL_CONTEXT = {}
 
 
-GLOBAL_CONTEXT['isso_config'] = {
-    "require-author": "true",
-    "require-email": "true"
-    }
+#GLOBAL_CONTEXT['isso_config'] = {
+#    "require-author": "true",
+#    "require-email": "true"
+#    }
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
