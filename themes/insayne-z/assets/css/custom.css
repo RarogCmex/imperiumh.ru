@@ -5,7 +5,7 @@
 }
 
 #blog-title {
-    border: 3px solid #343a40;
+    border: 3px solid transparent;
 }
 
 #blog-title:hover {
