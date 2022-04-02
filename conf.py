@@ -139,8 +139,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/pages/", "Индекс"),
-        ("/categories/", "Тэги"),
+        ("/pages/", "Сайт"),
     ),
 }
 
@@ -149,7 +148,8 @@ NAVIGATION_LINKS = {
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Навигация по времени"),
+        ("/categories/", "Тэги блога"),
+        ("/archive.html", "Архив блога"),
         ("/rss.xml", "RSS лента"),
         ("https://github.com/RarogCmex/imperiumh.ru", "Git репозиторий"),
         )
@@ -350,7 +350,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = ''
+LOGO_URL = '/Плашка_nano.webp'
 
 # When linking posts to social media, Nikola provides Open Graph metadata
 # which is used to show a nice preview. This includes an image preview
