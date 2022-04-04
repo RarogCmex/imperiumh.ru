@@ -2,7 +2,7 @@
 .. slug: obnaruzhil-zanimatelnyi-literaturnyi-kosiak-s-datoy
 .. date: 2021-11-01 23:23:27 UTC+05:00
 .. tags: Личное, Писательское
-.. category: Литература
+.. category: Дневник
 .. link: 
 .. description: обнаружил занимательный косяк с датами
 .. type: text

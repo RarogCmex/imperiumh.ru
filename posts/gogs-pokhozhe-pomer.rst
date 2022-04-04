@@ -2,7 +2,7 @@
 .. slug: gogs-pokhozhe-pomer
 .. date: 2021-08-10 22:08:27 UTC+05:00
 .. tags: Техническое
-.. category: Инфраструктура Империума
+.. category:
 .. link: 
 .. description: 
 .. type: text
