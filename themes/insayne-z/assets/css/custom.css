@@ -98,3 +98,14 @@ table td {
   color: #343a40;
   border-color: #630091;
 }
+
+/* Линейные цитаты и стихи */
+blockquote .line-block {
+  font-size: 1.1rem;
+  color: #341e3a;
+}
+
+/* Обычные цитаты */
+blockquote p {
+  font-size: 1.15rem;
+}
