@@ -7,3 +7,4 @@
 .. description: 
 .. type: text
 
+`Книга по хаскелю </books/haskell/>`_
