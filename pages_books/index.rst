@@ -7,4 +7,4 @@
 .. description: 
 .. type: text
 
-`Книга по хаскелю </books/haskell/>`_
+`Книга по хаскелю </books/haskell/> (заморожена?)`_

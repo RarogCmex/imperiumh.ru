@@ -140,7 +140,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/pages/", "Сайт"),
-        ("/books/haskell/", "Учебник по Haskell"),
+        #("/books/haskell/", "Учебник по Haskell"),
     ),
 }
 
