@@ -1,6 +1,8 @@
+venv
 /output/
 /cache/
 /__pycache__/
 .doit.db
+.doit.db.db
 state_data.json
 .DS_Store
